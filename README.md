@@ -54,7 +54,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [@nees101/FrontendMentor](https://www.frontendmentor.io/solutions/responsive-site-using-css-bootstrap-and-jquery-HYYvYYCdG)
-- Live Site URL: [@nees101/github](https://github.com/nees101/Room-homepage-master-challenge-solution)
+- Live Site URL: [@nees101/github]( https://nees101.github.io/Room-homepage-master-challenge-solution/)
 
 ## My process
 
