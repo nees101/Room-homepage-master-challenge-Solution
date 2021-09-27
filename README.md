@@ -29,13 +29,17 @@ Users should be able to:
 #### Desktop Designs
 
 ![](./FinalDesignScreenshots/Desktop-design-slide-1.png)
+
 ![](./FinalDesignScreenshots/Desktop-design-slide-2.png)
+
 ![](./FinalDesignScreenshots/Desktop-design-slide-3.png)
 
 #### Desktop Active states
 
 ![](./FinalDesignScreenshots/Desktop-active-state-1.png)
+
 ![](./FinalDesignScreenshots/Desktop-active-state-2.png)
+
 ![](./FinalDesignScreenshots/Desktop-active-state-3.png)
 
 #### Mobile Design
