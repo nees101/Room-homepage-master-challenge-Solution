@@ -1,0 +1,268 @@
+body {
+  margin: 0;
+  width: 100%;
+  font-family: 'Spartan', sans-serif;
+  font-size: 12px;
+}
+
+p {
+  color: hsl(0, 0%, 63%);
+  font-weight: 600;
+  line-height: 1.6;
+  opacity: 0.7;
+  margin: 7% 0;
+}
+
+h1 {
+  font-weight: 600;
+  font-family: 'Spartan', sans-serif;
+  font-size: 2.4rem;
+  margin-bottom: 6%;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 0.8rem;
+  letter-spacing: 3px;
+}
+
+.column_1 {
+  position: relative;
+  background-size: 100% 100%;
+  overflow: hidden;
+  width:60vw;
+  height:60vh;
+}
+
+.column_2 {
+  position: relative;
+  width:40vw;
+  height:60vh;
+  padding:8% 5%;
+
+}
+.column_3 , .column_4{
+  display:none;
+  position: relative;
+  width:40vw;
+  height:60vh;
+  padding:7% 5%;
+}
+.column_5{
+  width:30vw;
+  height:40vh;
+}
+.column_6{
+  width:40vw;
+  height:40vh;
+}
+/* --------------------------- */
+
+/* Navigation bar section */
+.navbar {
+  padding: 6% 4%;
+  width:100%;
+}
+
+.nav-item {
+  padding-left: 8%;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+  color: hsl(0, 0%, 100%);
+  position:relative;
+  font-weight: 600;
+  padding-bottom: 8px;
+  opacity: 0.7;
+}
+
+.nav-link:hover::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 25%;
+  height: 0.125rem;
+  bottom: 0;
+  left: 1.2rem;
+  background-color: hsl(0, 0%, 100%);
+}
+
+.close-icon {
+  display: none;
+}
+
+/* --------------------------- */
+
+
+.bg-1{
+  background-image: url("images/desktop-image-hero-1.jpg");
+}
+.bg-2{
+  background-image: url("images/desktop-image-hero-2.jpg");
+}
+.bg-3{
+  background-image: url("images/desktop-image-hero-3.jpg");
+}
+
+/* Shop button */
+.shop {
+  letter-spacing: 10px;
+  color: hsl(0, 0%, 0%);
+  text-decoration: none;
+  font-family: 'Spartan', sans-serif;
+  font-weight: 700;
+  opacity:0.7;
+}
+
+.shop:hover {
+  color: hsl(0, 0%, 63%);
+}
+
+.shop::after {
+  content: url("images/icon-arrow.svg");
+  display: inline-block;
+  opacity: 0.7;
+}
+
+/* Navigation Arrows */
+.right-arrow-desktop {
+  padding: 5% 6%;
+  background-color: hsl(0, 0%, 0%);
+  position: absolute;
+  left: 13%;
+  bottom:0;
+}
+
+.left-arrow-desktop {
+  padding: 5% 6%;
+  background-color: hsl(0, 0%, 0%);
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.right-arrow-desktop:hover,
+.left-arrow-desktop:hover {
+  background-color: hsl(0, 0%, 27%);
+  cursor: pointer;
+}
+
+.left-arrow-mobile, .right-arrow-mobile {
+  display: none;
+}
+
+/* About section */
+.about-image {
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  object-fit:cover;
+}
+
+.about {
+  padding:5% 2% ;
+}
+
+/* Media Query */
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 1.7rem;
+  }
+p{
+  padding-bottom:10%;
+}
+  .column_1{
+    width:100%;
+    height: 350px;
+    background-size: 100% 100%;
+    overflow: hidden;
+  }
+
+  .column_2 {
+    width:100%;
+    padding: 20% 12%;
+  }
+  .column_3,.column_4{
+    display:none;
+    padding: 20% 12%;
+    width:100%;
+  }
+  .column_5, .column_6{
+    width:100%;
+  }
+  .navbar{
+    padding:10% 0;
+    width:100%;
+  }
+
+  .navbar-toggler {
+    border:none;
+  }
+  .navbar-click{
+    background-color:hsl(0, 0%, 100%);
+  }
+  .navbar-nav{
+    flex-direction:row;
+    position:absolute;
+    top:40%;
+    left:20%;
+  }
+  .nav-item{
+  vertical-align:middle;
+  padding-left:20%;
+  }
+  .navbar .navbar-nav .nav-item .nav-link {
+    color:hsl(0, 0%, 0%);
+  }
+
+  .brand-icon{
+    position:absolute;
+    left:40%;
+  }
+
+  .bg-1{
+    background-image: url("images/mobile-image-hero-1.jpg");
+  }
+  .bg-2{
+    background-image: url("images/mobile-image-hero-2.jpg");
+  }
+  .bg-3{
+    background-image: url("images/mobile-image-hero-3.jpg");
+  }
+  .left-arrow-desktop, .right-arrow-desktop {
+    display: none;
+  }
+
+  .left-arrow-mobile {
+    display: block;
+    padding: 4% 5%;
+    background-color: hsl(0, 0%, 0%);
+    position: absolute;
+    right: 12.8%;
+    bottom: 0;
+  }
+
+  .right-arrow-mobile {
+    display: block;
+    padding: 4% 5%;
+    background-color: hsl(0, 0%, 0%);
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+
+  .right-arrow-mobile:hover,
+  .left-arrow-mobile:hover {
+    background-color: hsl(0, 0%, 27%);
+    cursor: pointer;
+  }
+
+  .about {
+    padding:15% 12% 4%;
+  }
+  .about-image{
+    width:100%;
+    height:100%;
+  }
+}
