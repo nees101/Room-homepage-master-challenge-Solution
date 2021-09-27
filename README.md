@@ -53,8 +53,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [@nees101/FrontendMentor](https://your-solution-url.com)
-- Live Site URL: [@nees101/github](https://your-live-site-url.com)
+- Solution URL: [@nees101/FrontendMentor](https://www.frontendmentor.io/solutions/responsive-site-using-css-bootstrap-and-jquery-HYYvYYCdG)
+- Live Site URL: [@nees101/github](https://github.com/nees101/Room-homepage-master-challenge-solution)
 
 ## My process
 
